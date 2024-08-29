@@ -44,6 +44,44 @@ To ensure our projects align with the team's goals and maintain high standards, 
    - The Project Manager and relevant team members will review the proposal.
    - Feedback will be provided through PR comments.
    - Once approved, the proposal will be merged into the main branch and added to the project tracker.
+     
+## Providing Feedback on Proposals
+
+To provide feedback on proposals, please follow these steps:
+
+1. **Create a New Issue:**
+   - Navigate to the **Issues** tab in the repository.
+   - Click on **New issue**.
+
+2. **Use the Feedback Template:**
+   - Select the **Feedback on Proposal** template.
+   - Fill out the issue with the following details:
+   
+     ```
+     ---
+     name: Feedback on Proposal
+     about: Provide feedback on a specific proposal
+     title: "[Feedback] "
+     labels: feedback
+     assignees: ''
+     ---
+
+     **Proposal Name:**
+
+     **Feedback:**
+     ```
+
+   - Replace `Proposal Name` with the name of the proposal you're providing feedback on.
+   - Provide your feedback in the `Feedback` section.
+
+3. **Submit the Issue:**
+   - Once completed, submit the issue. It will be labeled as `feedback` and associated with the relevant proposal.
+   
+4. **Review and Discussion:**
+   - The Project Manager and relevant team members will review the feedback.
+   - Further discussion can take place in the issue comments if needed.
+
+By following this process, we can ensure that all feedback is organized, trackable, and easily accessible for review and implementation.
 
 ## Project Tracking and Progress Updates
 
