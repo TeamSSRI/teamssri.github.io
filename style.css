@@ -64,7 +64,7 @@ body {
 /* Hero Section */
 .hero-section {
     background: url('hero.jpg') no-repeat center center/cover;
-    color: #000;
+    color: #ffffff;
     padding: 150px 0;
     text-align: center;
 }
@@ -76,7 +76,7 @@ body {
 
 .hero-section p {
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #000;
     margin-bottom: 25px;
 }
 
