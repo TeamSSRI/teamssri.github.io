@@ -37,7 +37,7 @@ To ensure our projects align with the team's goals and maintain high standards, 
      ```bash
      git checkout -b proposal/your-project-name
      ```
-   - Add your proposal document in the `/proposals` directory.
+   - Add your proposal document in the `/proposal` directory.
    - Push your changes and create a pull request (PR) titled "Project Proposal: [Your Project Name]."
    
 3. **Review Process:**
