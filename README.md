@@ -35,9 +35,9 @@ To ensure our projects align with the team's goals and maintain high standards, 
 2. **Submit via Pull Request:**
    - Fork the repository and create a new branch for your proposal:
      ```bash
-     git checkout -b proposal/your-project-name
+     git checkout -b proposals/your-project-name
      ```
-   - Add your proposal document in the `/proposal` directory.
+   - Add your proposal document in the `/proposals` directory.
    - Push your changes and create a pull request (PR) titled "Project Proposal: [Your Project Name]."
    
 3. **Review Process:**
