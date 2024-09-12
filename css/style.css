@@ -4,9 +4,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1.6;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #fff5e6; /* Light orange background */
 }
 
 .container {
@@ -15,167 +14,234 @@ body {
     margin: 0 auto;
 }
 
+/* Headlines and Titles */
+h1,
+h2,
+h3,
+.nav-links a {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/* Hyperlinks */
+a {
+    text-decoration: none;
+    background: linear-gradient(to bottom, #4b8f88, #3f6f81);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Header with Hero Section */
+.hero-section {
+    width: 100%;
+    background: linear-gradient(to bottom, #4b8f88, #3f6f81); /* Updated gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 0; /* Remove bottom padding to finish hero at the bottom of the image */
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Navigation */
 .navbar {
-    background-color: #ffffff;
+    background-color: #fff;
+    padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
-.navbar .logo {
-    float: left;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #333;
+/* Navigation should be directly under the image */
+.hero-section + .navbar {
+    margin-top: 0;
 }
 
+/* Navigation Links */
 .navbar .nav-links {
     list-style: none;
     padding: 0;
     margin: 0;
-    float: right;
+    text-align: center;
 }
 
 .navbar .nav-links li {
     display: inline-block;
-    margin-left: 1.5rem;
+    margin: 0 15px;
 }
 
 .navbar .nav-links a {
-    color: #333;
+    color: #FF6600; /* Orange color matching the logo */
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 14px;
     transition: color 0.3s ease;
 }
 
 .navbar .nav-links a:hover {
-    color: #ff6600;
+    color: #FF0000; /* Red color on hover */
 }
 
-.navbar::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-/* Hero Section */
-.hero-section {
-    background: url('hero.jpg') no-repeat center center/cover;
-    color: #ffffff;
-    padding: 150px 0;
+/* Hero Content */
+.hero-content {
+    background-color: #fff5e6; /* Match background with header */
     text-align: center;
+    padding: 40px 0;
 }
 
-.hero-section h2 {
-    font-size: 3rem;
-    margin-bottom: 15px;
+.hero-content h2 {
+    font-size: 24px;
+    color: #FF6600;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-family: 'Press Start 2P', cursive;
 }
 
-.hero-section p {
-    font-size: 1.2rem;
-    color: #000 !important;
-    margin-bottom: 25px;
+.hero-content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.hero-section .btn {
-    background-color: #ff6600;
-    color: #ffffff;
-    padding: 12px 25px;
+.hero-content .btn {
+    background-color: #FF6600;
+    color: #FFFFFF;
+    padding: 10px 20px;
     text-decoration: none;
-    border-radius: 30px;
-    font-size: 1.2rem;
+    border-radius: 5px;
+    font-size: 14px;
     transition: background-color 0.3s ease;
+    font-family: 'Press Start 2P', cursive;
 }
 
-.hero-section .btn:hover {
-    background-color: #e65c00;
+.hero-content .btn:hover {
+    background-color: #FF0000;
 }
 
 /* Section Styles */
 section {
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
     text-align: center;
-    color: #333;
+    line-height: 1.2em;
+    color: #FF6600;
     position: relative;
+    font-family: 'Press Start 2P', cursive;
 }
 
 section h2::after {
     content: '';
     width: 50px;
     height: 3px;
-    background-color: #ff6600;
+    background-color: #FFFF66;
     display: block;
     margin: 10px auto 0;
 }
 
 /* Proposals, Announcements, Schedule, Updates Sections */
-.proposals-section, .announcements-section, .schedule-section, .updates-section {
-    background-color: #ffffff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+.proposals-section,
+.announcements-section,
+.schedule-section,
+.updates-section {
+    background-color: #fff;
     border-radius: 10px;
-    padding: 40px;
-    margin-bottom: 30px;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
-.proposals-section p, .announcements-section p, .schedule-section p, .updates-section p {
-    font-size: 1.1rem;
-    color: #666;
+.proposal-item,
+.announcement-item,
+.schedule-item,
+.update-item {
+    margin-bottom: 20px;
 }
 
-.proposal-item, .announcement-item, .schedule-item, .update-item {
-    margin-bottom: 25px;
-}
-
-.proposal-item h3, .announcement-item h3, .schedule-item h3, .update-item h3 {
-    font-size: 1.8rem;
+.proposal-item h3,
+.announcement-item h3,
+.schedule-item h3,
+.update-item h3 {
+    line-height: 1.2em;
+    font-size: 16px;
     margin-bottom: 10px;
-    color: #333;
+    color: #FF6600;
+    font-family: 'Press Start 2P', cursive;
 }
 
-.proposal-item p, .announcement-item p, .schedule-item p, .update-item p {
-    font-size: 1rem;
+.proposal-item p,
+.announcement-item p,
+.schedule-item p,
+.update-item p {
+    font-size: 14px;
     color: #777;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Footer */
 footer {
     background-color: #333;
     color: #ffffff;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
-    margin-top: 30px;
 }
 
 footer p {
     margin: 0;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
 }
 
-footer .social-links {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar .nav-links li {
+        margin: 0 10px;
+    }
 
-footer .social-links li {
-    display: inline-block;
-    margin-left: 10px;
-}
+    .navbar .nav-links a {
+        font-size: 12px;
+    }
 
-footer .social-links a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
+    .hero-content h2 {
+        line-height: 1.2em;
+        font-size: 18px;
+    }
 
-footer .social-links a:hover {
-    color: #ff6600;
-}
+    .hero-content p {
+        font-size: 12px;
+    }
 
+    .hero-content .btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    section h2 {
+        line-height: 1.2em;
+        font-size: 18px;
+    }
+
+    .proposal-item h3,
+    .announcement-item h3,
+    .schedule-item h3,
+    .update-item h3 {
+        line-height: 1.2em;
+        font-size: 14px;
+    }
+
+    .proposal-item p,
+    .announcement-item p,
+    .schedule-item p,
+    .update-item p {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+}
