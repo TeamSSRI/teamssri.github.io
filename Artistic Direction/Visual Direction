@@ -29,6 +29,7 @@ Terms and Defintions:
     = (M4) moves at 5p for every 10p of character movement
     = (M5) moves at 6p for every 10p of character movement
     = (F)  moves directly with the character movement
+    = This is probably an extreme example; I'll have to play around with the numbers to find something reasonable.
   + Aside from edge cases (the player is literally against the edge of the level), the camera follows the character.
 - Scene: What you can see at one point on the screen.
 - Level: I'm sure I can come up with a definition, but c'mon. It's a level.
