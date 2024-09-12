@@ -2,64 +2,55 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team SSRI</title>
+    <title>Emgato - Cat Geolocation Game</title>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Pixelated Font for headlines -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Readable font for body text -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <h1 class="logo">Cat Gelocation Game</h1>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#proposals">Product Proposals</a></li>
-                    <li><a href="#announcements">Team Announcements</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                    <li><a href="#updates">Proposed Updates</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<!-- Header with Hero Section -->
+<header class="hero-section">
+    <div class="logo-container">
+        <!-- Replace 'images/logo.png' with the path to your supplied image -->
+        <img src="images/logo.png" alt="Emgato Logo">
+    </div>
+</header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="container">
-            <h2>Welcome to Our University Product Showcase</h2>
-            <p>Developing fun cat games to keep people connected.</p>
-            <a href="#proposals" class="btn">View Proposals</a>
-        </div>
-    </section>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#announcements">Team Announcements</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#updates">Proposed Updates</a></li>
+            <li><a href="#proposals">Product Proposals</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <!-- Product Proposals Section -->
-    <section id="proposals" class="proposals-section">
+<!-- Main Content -->
+<main>
+    <!-- Hero Section Content -->
+    <section id="home" class="hero-content">
         <div class="container">
-            <h2>Product Proposals</h2>
-            <p>Here you can find the latest product proposals submitted by our team members. Review and provide feedback to help refine our ideas.</p>
-            <!-- Proposal Items -->
-            <div class="proposal-item">
-                <h3><strong><a href="https://docs.google.com/presentation/d/1u1n6wQ9Y3S4ZrN7FbVJw_HOAhemJdM7r-7uVk_oeL10/edit#slide=id.p">Proposal 1: Rainier Cat Platform Game</a></strong></h3>
-                <p><strong>A mobile and PC platformer game where players guide a cat through three unique story-driven maps to find its way back home. Along the journey, players collect trinkets that unlock deeper lore and enhance the storyline. Additionally, the game features timed and scored challenge maps with global leaderboards, allowing players to compete for top scores and see how they rank against their friends.</strong></p>
-            </div>
-            <div class="proposal-item">
-                <h3><a href="https://github.com/TeamSSRI/teamssri.github.io/blob/main/proposals/CS3354_Proposal_Olsen.pdf">Proposal 2: Health WebApp Game</a></h3>
-                <p>Develop an app that acts as a personal fitness coach, guiding users through their health and wellness journey. Gamify the app by incorporating features that motivate users to engage with it daily.</p>            
-            </div>
-            <div class="proposal-item">
-                <h3><a href="https://github.com/TeamSSRI/teamssri.github.io/blob/main/proposals/CS%203354_Proposal_Shree.pdf">Proposal 3: ChoreBuddy: Household Task Manager</a></h3>
-                <p>ChoreBuddy allow users to create, assign, and track chores among housemates or family members</p>            
-            </div>
-            <div class="proposal-item">
-                <h3><a href="https://github.com/TeamSSRI/teamssri.github.io/blob/main/proposals/ZRProposal.pdf">Proposal 4: Virtual Classroom Engagement Tool</a></h3>
-                <p>A web-based or mobile application that enhances student engagement in online learning environments.</p>            
-            </div>
+            <h2>Welcome to Emgato's Adventure!</h2>
+            <p>Developing a fun cat game to keep people connected.</p>
         </div>
     </section>
 
@@ -67,14 +58,13 @@
     <section id="announcements" class="announcements-section">
         <div class="container">
             <h2>Team Announcements</h2>
-            <p>Stay updated with the latest announcements from the team. Important information regarding meetings, milestones, and deadlines will be posted here.</p>
             <!-- Announcement Items -->
             <div class="announcement-item">
-                <h3>[09/08/2024] Team Proposal: Cat Gelocation Game Selected</h3>
-                <p>We have voted to select the cat geolocation game, and are now working to develop specifications necessary for progress of the game.</p>
+                <h3>[09/08/2024] Team Proposal: Cat Geolocation Game Selected</h3>
+                <p>We have voted to select the cat geolocation game and are now working to develop the specifications necessary for progress of the game.</p>
             </div>
             <div class="announcement-item">
-                <h3>Team Proposals due by September 4th</h3>
+                <h3>Team Proposals Due by September 4th</h3>
                 <p>We will want to submit all proposals to be voted on by the 4th, and then we can have feedback/comments and finalize a proposal to submit on the 8th.</p>
             </div>
         </div>
@@ -84,7 +74,6 @@
     <section id="schedule" class="schedule-section">
         <div class="container">
             <h2>Schedule</h2>
-            <p>Keep track of our project timeline and important deadlines. Make sure to stay on top of your tasks and contribute to our shared goals.</p>
             <!-- Schedule Items -->
             <div class="schedule-item">
                 <h3>Project Proposal Due</h3>
@@ -105,21 +94,44 @@
     <section id="updates" class="updates-section">
         <div class="container">
             <h2>Proposed Updates</h2>
-            <p>Review the proposed updates for our ongoing project. These updates are crucial for the continuous improvement of our product.</p>
             <!-- Update Items -->
             <div class="update-item">
                 <h3>Proposal Selected: Cat Geolocation Game</h3>
-                <p>We have voted to select the cat geolocation game, and are now working to develop specifications necessary for progress of the game.</p>
+                <p>We have voted to select the cat geolocation game and are now working to develop the specifications necessary for progress of the game.</p>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer>
+    <!-- Product Proposals Section -->
+    <section id="proposals" class="proposals-section">
         <div class="container">
-            <p>&copy; 2024 Cat Geolocation Game. All Rights Reserved.</p>
+            <h2>Product Proposals</h2>
+            <!-- Proposal Items -->
+            <div class="proposal-item">
+                <h3><a href="https://docs.google.com/presentation/d/1u1n6wQ9Y3S4ZrN7FbVJw_HOAhemJdM7r-7uVk_oeL10/edit#slide=id.p"><strong>Proposal 1: Rainier Cat Platform Game</strong></a></h3>
+                <p><strong>A mobile and PC platformer game where players guide a cat through three unique story-driven maps to find its way back home. Along the journey, players collect trinkets that unlock deeper lore and enhance the storyline. Additionally, the game features timed and scored challenge maps with global leaderboards, allowing players to compete for top scores and see how they rank against their friends.</strong></p>
+            </div>
+            <div class="proposal-item">
+                <h3><a href="https://github.com/TeamSSRI/teamssri.github.io/blob/main/proposals/CS3354_Proposal_Olsen.pdf">Proposal 2: Health WebApp Game</a></h3>
+                <p>Develop an app that acts as a personal fitness coach, guiding users through their health and wellness journey. Gamify the app by incorporating features that motivate users to engage with it daily.</p>
+            </div>
+            <div class="proposal-item">
+                <h3><a href="https://github.com/TeamSSRI/teamssri.github.io/blob/main/proposals/CS%203354_Proposal_Shree.pdf">Proposal 3: ChoreBuddy: Household Task Manager</a></h3>
+                <p>ChoreBuddy allows users to create, assign, and track chores among housemates or family members.</p>
+            </div>
+            <div class="proposal-item">
+                <h3><a href="https://github.com/TeamSSRI/teamssri.github.io/blob/main/proposals/ZRProposal.pdf">Proposal 4: Virtual Classroom Engagement Tool</a></h3>
+                <p>A web-based or mobile application that enhances student engagement in online learning environments.</p>
+            </div>
         </div>
-    </footer>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Emgato. All Rights Reserved.</p>
+    </div>
+</footer>
 </body>
 
 </html>
