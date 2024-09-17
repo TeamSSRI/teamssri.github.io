@@ -35,3 +35,21 @@ Terms and Defintions:
 - Level: I'm sure I can come up with a definition, but c'mon. It's a level.
 - I'm sure I'll have more pedantic notes that come up later.
 
+PIXEL MATH:
+- The average cat is apartently 18in long and 10in tall. 
+- Per the rule of cute (and laziness), I will make the cat 16 in long and 11in tall (including an inch for just ears)
+  + In walking position.
+- Cats can jump up to 6 times their height, but that feels a little insane unless we want to commit to a really vertical platform game, which could actually be kind of fun now that I think about it. 
+- I think a happy medium is 3-4 times the height, which means max height is ~36 pixels above base height
+  + While that should probably be measured by the center of gravity, I'll figure that out more when I do the jumping animation.
+- You should be able to see 2 cats under you and 2 cats above the top of where you land.
+- Math:
+  + 2(11) below the cat
+  + 11 for the cat
+  + 36 for the jump
+  + 2(11) for space above the jump
+  = 80 px for height
+  = Let's say 120 for the width?
+- Will add grid, for scale
+
+
